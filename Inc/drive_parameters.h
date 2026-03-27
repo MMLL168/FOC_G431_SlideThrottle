@@ -303,6 +303,25 @@
  **************************/
 
 /* ##@@_USER_CODE_START_##@@ */
+/* --- USER PROTECTED OVERRIDES --- */
+/* These overrides survive MC Workbench generation. */
+#undef IQMAX_A
+#define IQMAX_A 4
+
+#undef PHASE1_DURATION
+#define PHASE1_DURATION 400
+
+#undef PHASE1_FINAL_CURRENT_A
+#define PHASE1_FINAL_CURRENT_A 2
+
+#undef PHASE2_DURATION
+#define PHASE2_DURATION 1500
+
+#undef PHASE2_FINAL_CURRENT_A
+#define PHASE2_FINAL_CURRENT_A 2
+
+#undef OV_VOLTAGE_THRESHOLD_V
+#define OV_VOLTAGE_THRESHOLD_V 17
 /* ##@@_USER_CODE_END_##@@ */
 
 #endif /*DRIVE_PARAMETERS_H*/
